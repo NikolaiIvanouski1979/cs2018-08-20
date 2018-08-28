@@ -36,6 +36,7 @@ package by.it.nikolaiivanouski.lesson04;
 За месяц 14 начислено $0.0
 
 */
+
 public class TaskC1 {
 
 

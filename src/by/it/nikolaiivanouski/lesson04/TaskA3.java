@@ -36,7 +36,7 @@ public class TaskA3 {
             System.out.println(b+" "+c);
         else if (a==c)
             System.out.println(a+ " "+c);
-        
+
 
     }
 
