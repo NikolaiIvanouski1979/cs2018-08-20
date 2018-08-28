@@ -35,8 +35,9 @@ class TaskB2{
 
 
     private static double dis(int a, int b, int c){
-    double dis=b*b-4*a*c;
-    return dis;
+
+    double result=b*b-4*a*c;
+    return result;
 }
     public static void main (String[] args) {
 
@@ -44,20 +45,20 @@ class TaskB2{
         int a = scanner.nextInt();
         int b = scanner.nextInt();
         int c = scanner.nextInt();
-        double dis=b*b-4*a*c;
+        double d=dis(a,b,c);
 
-        if (dis > 0) {
+        if (d > 0) {
             double x1, x2;
-            x1 = (-b + Math.sqrt(dis)) / (2 * a);
-            x2 = (-b - Math.sqrt(dis)) / (2 * a);
+            x1 = (-b + Math.sqrt(d)) / (2 * a);
+            x2 = (-b - Math.sqrt(d)) / (2 * a);
 
 
             System.out.println(x1 + " " + x2 + " ");
-        } else if (dis == 0) {
+        } else if (d == 0) {
             double x;
             x = -b / (2 * a);
-            System.out.println(x + " ");
-        } else if (dis < 0) {
+            System.out.println(x);
+        } else if (d < 0) {
             System.out.print("Отрицательный дискриминант");
         }
 

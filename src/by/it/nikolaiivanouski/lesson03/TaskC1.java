@@ -26,7 +26,15 @@ TC = (TF – 32) * 5/9
 
 
 
-class TaskC1 {}
+class TaskC1 {
 
+    static double convertCelsiumToFahrenheit(int celsium) {
 
+        double result = celsium * 9 / 5 + 32;
+        return result;
+    }
+    public static  void main(String[] args) {
+    }
+
+}
 
