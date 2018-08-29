@@ -32,11 +32,15 @@ public class TaskB3 {
         Scanner scanner = new Scanner(System.in);
         int sum = scanner.nextInt();
         int n = 1;
+        int m = 0;
 
-        for (int i = 0; i <sum ; i++) {
+        for (int i = 1; i <sum ; i++) {
+            m = m+i;
+            if
+            (m<=sum)
 
-            System.out.print(n*(n+1)/2+",");
-            n++;
+            System.out.print(m+",");
+
 
         }
 
